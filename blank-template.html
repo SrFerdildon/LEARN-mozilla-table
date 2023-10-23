@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Table planets</title>
+	<link href="minimal-table.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<table>
+		<caption>
+			Данные о планетах
+		</caption>
+		<colgroup>
+			<col span="2" />
+			<col style="border: 2px solid black">
+			<col span="9">
+		</colgroup>
+		<thead>
+			<td colspan="2"></td>
+			<th scope="col">Имя</th>
+			<th scope="col">Масса (10<sup>24</sup>кг)</th>
+			<th scope="col">Диаметр (км)</th>
+			<th scope="col">Плотность (кг/м<sup>3</sup>)</th>
+			<th scope="col">Гравитация (м/с<sup>2</sup>)</th>
+			<th scope="col">Продолжительность светового дня (часы)</th>
+			<th scope="col">Расстояние от Солнца (10<sup>6</sup>км)</th>
+			<th scope="col">Средняя температура (°C)</th>
+			<th scope="col">Количество спутников</th>
+			<th scope="col">Примечания</th>
+		</thead>
+		<tbody>
+			<tr>
+				<th rowspan="4" colspan="2" scope="rowgroup">Планеты земной группы</th>
+				<th scope="row">Меркурий</th>
+				<td>0.330</td>
+				<td>4,879</td>
+				<td>5427</td>
+				<td>3.7</td>
+				<td>4222.6</td>
+				<td>57.9</td>
+				<td>167</td>
+				<td>0</td>
+				<td>Наиболее близок к Солнцу</td>
+			</tr>
+			<tr>
+				<th scope="row">Венера</th>
+				<td>4.87</td>
+				<td>12,104</td>
+				<td>5243</td>
+				<td>8.9</td>
+				<td>2802.0</td>
+				<td>108.2</td>
+				<td>464</td>
+				<td>0</td>
+				<td></td>
+			</tr>
+			<tr>
+				<th scope="row">Земля</th>
+				<td>5.97</td>
+				<td>12,756</td>
+				<td>5514</td>
+				<td>9.8</td>
+				<td>24.0</td>
+				<td>149.6</td>
+				<td>15</td>
+				<td>1</td>
+				<td>Наш мир</td>
+			</tr>
+			<tr>
+				<th scope="row">Марс</th>
+				<td>0.642</td>
+				<td>6,792</td>
+				<td>3933</td>
+				<td>3.7</td>
+				<td>24.7</td>
+				<td>227.9</td>
+				<td>-65</td>
+				<td>2</td>
+				<td>Красная планета</td>
+			</tr>
+			<tr>
+				<th rowspan="4" scope="rowgroup">Планеты Гиганты</th>
+				<th rowspan="2" scope="rowgroup">Газовые гиганты</th>
+				<th scope="row">Юпитер</th>
+				<td>1898</td>
+				<td>142,984</td>
+				<td>1326</td>
+				<td>23.1</td>
+				<td>9.9</td>
+				<td>778.6</td>
+				<td>-110</td>
+				<td>67</td>
+				<td>Самая большая планета</td>
+			</tr>
+			<tr>
+				<th scope="row">Сатурн</th>
+				<td>568</td>
+				<td>120,536</td>
+				<td>687</td>
+				<td>9.0</td>
+				<td>10.7</td>
+				<td>1433.5</td>
+				<td>-140</td>
+				<td>62</td>
+				<td></td>
+			</tr>
+			<tr>
+				<th rowspan="2" scope="rowgroup">Ледяные гиганты</th>
+				<th scope="row">Уран</th>
+				<td>86.8</td>
+				<td>51,118</td>
+				<td>1271</td>
+				<td>8.7</td>
+				<td>17.2</td>
+				<td>2872.5</td>
+				<td>-195</td>
+				<td>27</td>
+				<td></td>
+			</tr>
+			<tr>
+				<th scope="row">Нептун</th>
+				<td>102</td>
+				<td>49,528</td>
+				<td>1638</td>
+				<td>11.0</td>
+				<td>16.1</td>
+				<td>4495.1</td>
+				<td>-200</td>
+				<td>14</td>
+				<td></td>
+			</tr>
+			<tr>
+				<th colspan="2" scope="rowgroup">Карликовые планеты</th>
+				<th scope="row">Плутон</th>
+				<td>0.0146</td>
+				<td>2,370</td>
+				<td>2095</td>
+				<td>0.7</td>
+				<td>153.3</td>
+				<td>5906.4</td>
+				<td>-225</td>
+				<td>5</td>
+				<td>Не считается планетой с 2006</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+
+</html>
